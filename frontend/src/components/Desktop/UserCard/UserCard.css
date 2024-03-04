@@ -1,0 +1,49 @@
+.userCard {
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.userCard__avatar {
+  object-fit: cover;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.userCard__texts {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userCard__name {
+  margin-bottom: 3px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.userCard__lastMessage {
+  /*color: rgb(128, 128, 128);*/
+  color: rgb(223, 223, 223);
+}
+
+.userCard__status {
+  position: absolute;
+  right: 0;
+  /*top: 7px;*/
+  top: 14.5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.userCard__status--online {
+  background-color: rgb(55, 194, 55);
+}
+
+.userCard__status--offline {
+  background-color: rgb(80, 80, 80);
+}

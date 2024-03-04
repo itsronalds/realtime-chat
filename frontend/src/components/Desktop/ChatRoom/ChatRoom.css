@@ -1,0 +1,79 @@
+.chatRoom {
+  background-color: rgb(241, 241, 241);
+  width: 65%;
+  border-radius: 20px;
+}
+
+/* Header */
+.chatRoom__header {
+  padding: 20px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  display: flex;
+  align-items: center;
+}
+
+.chatRoom__headerUserAvatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.chatRoom__headerUserFullname {
+  margin: 0 15px;
+  color: #252525;
+}
+
+.chatRoom__headerUserStatus {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.chatRoom__headerUserStatus--online {
+  background-color: rgb(55, 194, 55);
+}
+
+.chatRoom__headerUserStatus--offline {
+  background-color: rgb(80, 80, 80);
+}
+
+.chatRoom__headerUserStatusText {
+  margin-left: 5px;
+  color: #252525;
+  font-size: 11px;
+}
+
+/* Body */
+.chatRoom__body {
+  height: 489px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chatRoom__body::-webkit-scrollbar {
+  display: none;
+}
+
+/*
+.chatRoom__body::-webkit-scrollbar-track {
+  padding: 2px 0;
+  background-color: #cfcfcf;
+}
+
+.chatRoom__body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chatRoom__body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+
+  background-color: #afafaf;
+}
+*/
+
+/* Footer */
+.chatRoom__footer {
+  position: relative;
+  padding: 20px 20px 0 20px;
+}

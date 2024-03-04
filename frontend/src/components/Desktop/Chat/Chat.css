@@ -1,0 +1,37 @@
+.desktopChat {
+  background: linear-gradient(
+    10deg,
+    rgb(30, 159, 245),
+    rgba(103, 69, 250, 0.726)
+  );
+
+  /*background-color: rgb(241, 241, 241);*/
+  width: 950px;
+  height: 650px;
+  border-radius: 22px;
+  display: flex;
+}
+
+@media screen and (max-width: 980px) {
+  .desktopChat {
+    width: 850px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .desktopChat {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .desktopChat {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .desktopChat {
+    width: 650px;
+  }
+}

@@ -1,0 +1,54 @@
+.message {
+  margin-bottom: 20px;
+  display: flex;
+
+  outline: none;
+}
+
+.message__userAvatar {
+  object-fit: cover;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.message__texts {
+  margin: 0 15px;
+}
+
+.message__text {
+  width: 190px;
+  padding: 8px;
+  line-height: 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 3px 1px rgb(240, 240, 240);
+  font-size: 11px;
+}
+
+.message__text--outgoing {
+  background-color: rgb(53, 192, 53);
+  color: #fff;
+}
+
+.message__text--incoming {
+  background-color: #fff;
+  color: rgb(75, 75, 75);
+}
+
+.message__date {
+  margin-top: 3px;
+}
+
+.message__dateText,
+.message__datetimeText {
+  color: rgb(75, 75, 75);
+  font-size: 9px;
+}
+
+.message__dateText {
+  margin-left: 3px;
+}
+
+.message__datetimeText {
+  margin-left: 8px;
+}

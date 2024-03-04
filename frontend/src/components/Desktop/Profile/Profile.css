@@ -1,0 +1,74 @@
+.profile {
+  /*background-color: rgb(36, 36, 37);*/
+  width: 35%;
+  padding: 20px;
+
+  border-radius: 20px;
+}
+
+.profile__avatarContainer {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.profile__avatar {
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.profile__users {
+  height: 401px;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.profile__logOut {
+  padding-top: 20px;
+}
+
+.profile__logOutButton {
+  /*background-color: rgb(201, 63, 63);*/
+  /*background-color: rgb(241, 62, 62);*/
+  background: rgba(34, 122, 253, 0.795);
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* SearchUsers component */
+.searchUsers {
+  /*background-color: rgb(43, 43, 43);*/
+  /*background-color: rgb(40, 67, 109);*/
+  width: 100%;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+
+.searchUsers__icon {
+  /*color: #7c7c7c;*/
+  color: #fff;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.searchUsers__input {
+  background: none;
+  height: 40px;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+.searchUsers__input::placeholder {
+  /*color: rgb(216, 216, 216);*/
+  color: #fff;
+}

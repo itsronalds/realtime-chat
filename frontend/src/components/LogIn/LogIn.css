@@ -1,0 +1,155 @@
+.logIn {
+  background-color: #fff;
+  width: 450px;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 1px rgb(18, 123, 243);
+}
+
+.logIn__title {
+  text-align: center;
+}
+
+.logIn__form {
+  padding-top: 25px;
+}
+
+.logIn__formGroup {
+  position: relative;
+  height: 40px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.logIn__formInput {
+  width: 100%;
+  border: 1px solid #d4d3d3;
+  border-radius: 2px;
+  outline: none;
+  padding: 1rem;
+  background: none;
+  z-index: 1;
+}
+
+.logIn__formLabel {
+  position: absolute;
+  left: 1rem;
+  top: 0.7rem;
+  padding: 0 0.25rem;
+  background-color: #fff;
+  transition: 0.3s;
+  color: #80868b;
+  font-size: 15px;
+}
+
+.logIn__formInput:focus {
+  border: 1.5px solid #1a73e8;
+}
+
+.logIn__formInput:focus + .logIn__formLabel {
+  top: -0.5rem;
+  left: 0.8rem;
+  color: #1a73e8;
+  font-size: 0.75rem;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.logIn__formInput:not(:placeholder-shown).logIn__formInput:not(:focus)
+  + .logIn__formLabel {
+  top: -0.5rem;
+  left: 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.logIn__formBtn {
+  background: linear-gradient(rgb(14, 118, 238) 50%, rgb(15, 90, 253));
+  width: 100%;
+  height: 40px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logIn__goToLogin {
+  margin-top: 25px;
+  text-align: end;
+}
+
+.logIn__goToLoginLink {
+  text-decoration: none;
+  color: rgb(17, 91, 177);
+  font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+  .logIn {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logIn {
+    width: 350px;
+    padding: 20px;
+  }
+
+  .logIn__title {
+    font-size: 20px;
+  }
+
+  .logIn__formLabel {
+    font-size: 12px;
+  }
+
+  .logIn__formGroup {
+    height: 35px;
+  }
+
+  .logIn__formBtn {
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .logIn__goToLoginLink {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .logIn {
+    width: 320px;
+  }
+
+  .logIn__title {
+    font-size: 18px;
+  }
+
+  .logIn__formLabel {
+    font-size: 11px;
+  }
+
+  .logIn__formGroup {
+    height: 30px;
+  }
+
+  .logIn__formBtn {
+    height: 30px;
+    font-size: 11px;
+  }
+
+  .logIn__goToLoginLink {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .logIn {
+    width: 280px;
+  }
+}
